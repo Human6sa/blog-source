@@ -31,7 +31,7 @@
     "hexo-theme-landscape": "^0.0.3"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-fontmin": "^0.7.4",
     "gulp-replace": "^1.1.3"
   }
