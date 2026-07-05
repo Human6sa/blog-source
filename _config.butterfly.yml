@@ -869,7 +869,7 @@ inject:
     # - <link rel="stylesheet" href="/js/baidutongji.js">
     - <link rel="stylesheet" href="/css/font.css">  #字体修改
     - <link rel="stylesheet" href="/css/highlight.css">
-    # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>
     - <script async data-pjax src="/js/rdmbkg.js"></script>
