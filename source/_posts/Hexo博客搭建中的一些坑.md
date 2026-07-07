@@ -4,7 +4,7 @@ date: 2022-08-04 16:26:24
 description: 搭博客时遇到的一些常见问题
 categories: Blog
 top_img: img/Bing/AcadiaSunrise.webp
-cover: img/Bing/AcadiaSunrise.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AcadiaSunrise.webp
 ---
 
 ## css无法加载

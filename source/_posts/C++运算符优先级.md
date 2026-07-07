@@ -5,7 +5,7 @@ description:
 tags: C++语法
 categories: C++
 top_img: img/Bing/Aldeyjarfoss.webp
-cover: img/Bing/Aldeyjarfoss.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/Aldeyjarfoss.webp
 ---
 
 第一级： 

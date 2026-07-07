@@ -5,7 +5,7 @@ description:
 tags: 8086
 categories: 汇编
 top_img: img/Bing/ArenalCostaRica.webp
-cover: img/Bing/ArenalCostaRica.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/ArenalCostaRica.webp
 ---
 
 ## 调试工具DEBUG

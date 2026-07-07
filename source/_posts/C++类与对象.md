@@ -5,7 +5,7 @@ description: C++面向对象的三大特性：封装、继承、多态
 tags: C++语法
 categories: C++
 top_img: img/Bing/AmericanGoldfinch.webp
-cover: img/Bing/AmericanGoldfinch.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AmericanGoldfinch.webp
 ---
 
 $C++$ 面向对象的三大特性：封装、继承、多态

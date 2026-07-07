@@ -6,7 +6,7 @@ description: OI中常用的一些STL函数
 tags: STL
 categories: OI
 top_img: img/22.10.19.webp
-cover: img/22.10.19.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/22.10.19.webp
 ---
 
 # C++标准模板库(STL)之Vector容器:

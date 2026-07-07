@@ -4,7 +4,7 @@ date: 2023-09-12 20:12:51
 tags: Python语法
 categories: Python
 top_img: img/Bing/AppalachianTrail.webp
-cover: img/Bing/AppalachianTrail.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AppalachianTrail.webp
 ---
 
 # print()函数的使用

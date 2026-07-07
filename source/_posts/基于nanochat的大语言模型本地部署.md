@@ -5,7 +5,7 @@ description:
 tags:
 categories:
 top_img: img/Bing/AnzaBorregoBloom.webp
-cover: img/Bing/AnzaBorregoBloom.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AnzaBorregoBloom.webp
 ---
 
 # 一、环境配置

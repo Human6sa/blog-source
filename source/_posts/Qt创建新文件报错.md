@@ -5,7 +5,7 @@ description:
 tags: Qt
 categories: Qt
 top_img: img/Bing/AmazonClouds.webp
-cover: img/Bing/AmazonClouds.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AmazonClouds.webp
 ---
 
 使用Qt Creator创建新文件后，可能出现一系列不影响编译的报错，包括一些Qt特有的类库。

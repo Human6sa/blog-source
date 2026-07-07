@@ -5,7 +5,7 @@ description:
 tags: C++语法
 categories: C++
 top_img: img/Bing/AlfanzinaLighthouse.webp
-cover: img/Bing/AlfanzinaLighthouse.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AlfanzinaLighthouse.webp
 ---
 
 $::$ 是运算符中优先级最高的，其用法有三种：
