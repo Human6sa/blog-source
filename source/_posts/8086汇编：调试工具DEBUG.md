@@ -1,7 +1,7 @@
 ---
 title: 8086汇编：调试工具DEBUG
 date: 2024-08-25 16:40:29
-description: DEBUG调试工具的基本命令，主要包括查看和修改寄存器（R命令）、查看和修改内存单元（D命令和E命令）、反汇编（U命令）、输入汇编指令（A命令）、单步执行（T/P命令）、连续执行程序（G命令）以及退出DEBUG（Q命令）。
+description: 
 tags: 8086
 categories: 汇编
 top_img: img/Bing/ArenalCostaRica.webp
