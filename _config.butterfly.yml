@@ -936,7 +936,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    fontawesomeV6: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css
+    fontawesomeV6: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
@@ -945,6 +945,7 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
+
 
 
 
