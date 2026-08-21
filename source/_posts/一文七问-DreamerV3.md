@@ -1,5 +1,5 @@
 ---
-title: 一文七问 · DreamerV3：用世界模型通吃 150+ 任务的通用强化学习
+title: 一文七问 | DreamerV3：基于世界模型的通用强化学习算法
 date: 2026-08-21 20:46:00
 updated: 2026-08-21 20:46:00
 tags:
@@ -187,23 +187,3 @@ DreamerV3 是基于模型的强化学习领域一项有代表性的工作。它�
 当然，它也有不足：算力成本仍然不低，Minecraft 挖钻石仍需单卡训练约 9 天；部分基准的 baseline 使用了 10 倍数据优势，且未与 Gato、Voyager 等需要外部数据或 API 的方法直接对比；此外工作仍以单任务学习为主，离真正的通用智能体还有距离，在算力利用上也不一定是 compute-optimal。
 
 总体而言，它在把强化学习从依赖人工调参推向更通用、可扩展方向上做出了有益的尝试。
-
-***
-
-## 作者简介
-
-
-胡兆杨，自动化所2026级研究生，研究兴趣包括强化学习、具身智能与 Sim2Real 等。
-
-联系邮箱：huzhaoyang2026@ia.ac.cn
-
-
-
-## 联系我们
-
-
-欢迎关注 RLCN 公众号，获取 RL 相关资讯。
-
-Email: rlchinacamp@163.com
-
-![Description](https://jidi-images.oss-cn-beijing.aliyuncs.com/rlchina2021/rlcn.jpeg?x-oss-process=image%2Fresize%2Cl_200)
