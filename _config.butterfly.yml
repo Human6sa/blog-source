@@ -598,14 +598,14 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size: 14px
-  font-family: DX,consolas
-  code-font-family: consolas
+  font-family: '"DengXian", "等线", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", sans-serif'
+  code-font-family: '"Cascadia Code", "Cascadia Mono", Consolas, "SFMono-Regular", Menlo, Monaco, monospace'
 
 # Font settings for the site title and site subtitle
 # 左上角網站名字 主頁居中網站名字
 blog_title_font:
-  font_link: /css/font.css
-  font-family: segoe print,DX
+  font_link:
+  font-family: '"Segoe Print", "DengXian", "等线", "Microsoft YaHei UI", "Microsoft YaHei", "PingFang SC", sans-serif'
 
 # The setting of divider icon (水平分隔線圖標設置)
 hr_icon:
@@ -845,7 +845,7 @@ lazyload:
 # ---------------
 
 pwa:
-  enable: true
+  enable: false
   manifest: /img/pwa/manifest.json
   apple_touch_icon: /img/pwa/apple-touch-icon.png
   favicon_32_32: /img/pwa/32.png
@@ -867,7 +867,6 @@ inject:
   head: 
     # - <meta name="baidu-site-verification" content="code-fyZkyngDgY" />
     # - <link rel="stylesheet" href="/js/baidutongji.js">
-    - <link rel="stylesheet" href="/css/font.css">  #字体修改
     - <link rel="stylesheet" href="/css/highlight.css">
     - <link rel="stylesheet" href="/css/custom.css">
   bottom:

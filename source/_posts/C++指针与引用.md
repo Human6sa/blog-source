@@ -5,7 +5,7 @@ description: 学OI的时候觉得指针很复杂，到了大学才发现它有�
 tags: C++语法
 categories: C++
 top_img: img/bing/AncientOrkney.webp
-cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/bing/AncientOrkney.webp
+cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AncientOrkney.webp
 ---
 
 # 内存地址与访问方式
