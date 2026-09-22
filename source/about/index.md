@@ -3,6 +3,7 @@ title: 关于
 date: 2022-10-28 07:59:24
 type: about
 layout: "about"
+comments: false
 ---
 中国科学院自动化研究所硕士研究生，群体决策智能实验室成员
 

@@ -46,15 +46,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: false
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -109,11 +108,6 @@ deploy:
     repository: git@github.com:human6sa/human6sa.github.io.git
   - type: # baidu_url_submitter ## 这是新加的
 
-
-# Lazyload
-lazyload:
-  enable: true
-  loadingImg: /img/loading.gif
 
 # Sitemap
 sitemap: 
