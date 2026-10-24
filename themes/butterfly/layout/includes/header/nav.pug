@@ -4,7 +4,11 @@ nav#nav
       if theme.nav.logo
         img.site-icon(src=url_for(theme.nav.logo) alt='Logo')
       if theme.nav.display_title
-        span.site-name=config.title
+        if theme.blog_title_image && theme.blog_title_image.path
+          span.site-name.site-name-wordmark(style=`--site-title-image: url('${url_for(theme.blog_title_image.path)}')`)
+            img.site-title-image(src=url_for(theme.blog_title_image.path) alt=config.title width=theme.blog_title_image.width height=theme.blog_title_image.height loading='eager' decoding='async')
+        else
+          span.site-name=config.title
     if globalPageType === 'post' && theme.nav.display_post_title
       a.nav-page-title(href=url_for('/'))
         span.site-name=(page.title || config.title)
