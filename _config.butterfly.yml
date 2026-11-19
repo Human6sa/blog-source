@@ -448,10 +448,8 @@ google_adsense:
 # --------------------------------------
 
 site_verification:
-  # - name: google-site-verification
-  #   content: xxxxxx
-- name: # baidu-site-verification
-  content: # <meta name="baidu-site-verification" content="code-fyZkyngDgY" />
+  - name: google-site-verification
+    content: 'mLSKxXtShZjX5gBe6nH_dhwcVyx4KPgBrZh-BP22v6c'
 
 # Beautify/Effect (美化/效果)
 # --------------------------------------
