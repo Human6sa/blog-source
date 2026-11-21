@@ -1,0 +1,5 @@
+mixin categoryTabs(tabs)
+  ul.category-tabs
+    each tab in tabs
+      li
+        a(href=url_for(tab.path) aria-current=tab.current)= tab.name

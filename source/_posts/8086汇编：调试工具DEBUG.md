@@ -3,9 +3,13 @@ title: 8086汇编：调试工具DEBUG
 date: 2024-08-25 16:40:29
 description: 
 tags: 8086
-categories: 汇编
 top_img: img/Bing/ArenalCostaRica.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/ArenalCostaRica.webp
+categories: 计算机基础
+category_branch: 8086 汇编
+sidebar_order: 2
+permalink: notes/8086-assembly/debug/
+redirect_from: 8086汇编：调试工具DEBUG.html
 ---
 
 ## 调试工具DEBUG

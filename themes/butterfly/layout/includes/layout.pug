@@ -1,7 +1,10 @@
 - var globalPageType = getPageType(page, is_home)
+- const categoryNav = categoryNavigation(page, globalPageType)
+- const hasCategorySidebar = !!categoryNav.sidebar?.links.length
 - var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
 - page.aside = globalPageType === 'archive' ? theme.aside.display.archive: globalPageType === 'category' ? theme.aside.display.category : globalPageType === 'tag' ? theme.aside.display.tag : page.aside
-- var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
+- const hasAside = theme.aside.enable && page.aside !== false
+- var hideAside = hasAside ? '' : 'hide-aside'
 - var pageType = globalPageType === 'post' ? 'post' : 'page'
 - pageType = page.type ? pageType + ' type-' + page.type : pageType
 
@@ -37,17 +40,23 @@ html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside
             document.addEventListener('DOMContentLoaded', setRandomBg)
           })()
 
-    !=partial('includes/sidebar', {}, {cache: true})
+    !=partial('includes/sidebar', {categoryNav})
 
-    #body-wrap(class=pageType)
+    #body-wrap(class=[pageType, hasCategorySidebar && 'has-category-navigation'])
+      if hasCategorySidebar
+        include ./category-sidebar.pug
+        +categorySidebarDesktop(categoryNav.sidebar)
       include ./header/index.pug
 
-      main#content-inner.layout(class=hideAside)
+      - const hasCategoryAside = hasCategorySidebar && hasAside && !body
+      main#content-inner.layout(class=[hideAside, hasCategorySidebar && 'category-browse-layout', hasCategoryAside && 'category-browse-with-aside'])
+        if hasCategorySidebar
+          +categorySidebarCompact(categoryNav.sidebar)
         if body
           div!= body
         else
           block content
-          if theme.aside.enable && page.aside !== false
+          if hasAside
             include widget/index.pug
 
       - const footerBg = theme.footer_img

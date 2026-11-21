@@ -3,9 +3,12 @@ title: C++中的::运算符
 date: 2022-12-08 21:11:51
 description: 
 tags: C++语法
-categories: C++
 top_img: img/Bing/AlfanzinaLighthouse.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AlfanzinaLighthouse.webp
+categories: 计算机基础
+category_branch: C++
+permalink: notes/cpp/scope-resolution/
+redirect_from: C++中的-运算符.html
 ---
 
 $::$ 是运算符中优先级最高的，其用法有三种：

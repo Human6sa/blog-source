@@ -3,9 +3,12 @@ title: C++指针与引用
 date: 2022-11-23 17:21:09
 description: 学OI的时候觉得指针很复杂，到了大学才发现它有大用处
 tags: C++语法
-categories: C++
 top_img: img/bing/AncientOrkney.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AncientOrkney.webp
+categories: 计算机基础
+category_branch: C++
+permalink: notes/cpp/pointers-and-references/
+redirect_from: C++指针与引用.html
 ---
 
 # 内存地址与访问方式

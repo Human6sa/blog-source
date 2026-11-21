@@ -7,12 +7,39 @@ menu:
   文章: /archives/|| fas fa-archive
   标签: /tags/|| fas fa-tags
   分类: /categories/|| fas fa-folder-open
-  资源: /resources/|| fas fa-cloud-download-alt
+  # 资源: /resources/|| fas fa-cloud-download-alt
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
   关于: /about/|| fas fa-heart
+
+# 显示名称: Hexo 一级分类名。
+# top 和 sidebar 各自留空时，自动显示 Hexo 的现有分类。
+# 文章的 categories 只填一级分类；用 category_branch 编入侧栏分支。
+# 分支名链接到 category_entry: true 的博文。若未指定，使用分支最早的博文。
+category_navigation:
+  top:
+    计算机基础: 计算机基础
+    科研笔记: 科研笔记
+    工程笔记: 工程笔记
+    随笔: 随笔
+  sidebar:
+    计算机基础: 计算机基础
+    科研笔记: 科研笔记
+    工程笔记: 工程笔记
+    随笔: 随笔
+  branch_order:
+    计算机基础: [算法笔记, 8086 汇编, C++, Python]
+  legacy_archives:
+    OI: 计算机基础
+    OI/前缀和、差分与离散化: 计算机基础
+    C: 计算机基础
+    汇编: 计算机基础
+    Python: 计算机基础
+    论文解读: 科研笔记
+    技术杂谈: 工程笔记
+    Qt: 工程笔记
 
 # Code Blocks (代碼相關)
 # --------------------------------------

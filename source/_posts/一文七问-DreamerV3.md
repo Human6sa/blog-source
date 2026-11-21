@@ -7,9 +7,12 @@ tags:
   - 世界模型
   - DreamerV3
   - 论文解读
-categories: 论文解读
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/SyracuseItaly.webp
 description: 一文七问解读 DreamerV3——一套固定超参数、基于世界模型的通用强化学习算法，首次在不依赖人类数据的情况下从零开始，在 Minecraft 中挖到钻石。
+categories: 科研笔记
+category_branch: 论文解读
+permalink: notes/research/dreamerv3/
+redirect_from: 一文七问-DreamerV3.html
 ---
 
 ## 导读

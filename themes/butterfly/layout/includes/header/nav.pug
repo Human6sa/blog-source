@@ -23,7 +23,8 @@ nav#nav
           i.fas.fa-search.fa-fw
           span= ' ' + _p('search.title')
     if theme.menu
-      != partial('includes/header/menu_item', {}, {cache: true})
+      include ./menu_item.pug
+      +siteMenu(categoryNav)
 
       #toggle-menu
         span.site-page

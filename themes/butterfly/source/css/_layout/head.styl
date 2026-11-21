@@ -134,7 +134,10 @@
       display: none
 
     #nav
-      background: rgba(255, 255, 255, .8)
+      --navigation-surface: var(--card-bg)
+      --navigation-ink: var(--font-color)
+      --navigation-text-shadow: none
+      background: var(--navigation-surface)
       box-shadow: 0 5px 6px -5px rgba(133, 133, 133, .6)
 
       a,
@@ -148,7 +151,10 @@
       position: fixed
       top: -60px
       z-index: 91
-      background: rgba(255, 255, 255, .7)
+      --navigation-surface: var(--card-bg)
+      --navigation-ink: var(--font-color)
+      --navigation-text-shadow: none
+      background: var(--navigation-surface)
       box-shadow: 0 5px 6px -5px alpha($grey, .6)
       transition: transform .2s ease-in-out, opacity .2s ease-in-out
       will-change: transform
@@ -287,6 +293,9 @@
         display: none
 
 #nav
+  --navigation-surface: transparent
+  --navigation-ink: var(--white)
+  --navigation-text-shadow: 1px 1px 2px rgba(0, 0, 0, .4)
   position: absolute
   top: 0
   z-index: 90

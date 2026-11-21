@@ -3,9 +3,13 @@ title: C++类与对象
 date: 2022-12-07 11:12:44
 description: C++面向对象的三大特性：封装、继承、多态
 tags: C++语法
-categories: C++
 top_img: img/Bing/AmericanGoldfinch.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AmericanGoldfinch.webp
+categories: 计算机基础
+category_branch: C++
+category_entry: true
+permalink: notes/cpp/classes-and-objects/
+redirect_from: C++类与对象.html
 ---
 
 $C++$ 面向对象的三大特性：封装、继承、多态
@@ -427,7 +431,7 @@ class B1: virtual public B
 
 - 在第一级继承时就要将共同基类设计为虚基类。
 
-![image_1](img/Blog/22.12.23_1.png)
+![image_1](/img/Blog/22.12.23_1.png)
 
 
 

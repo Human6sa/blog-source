@@ -1,1 +1,9 @@
 .category-lists!= list_categories()
+
+if categoryNav && categoryNav.uncategorized.length
+  section#category-uncategorized
+    h2 未分类
+    ul
+      each article in categoryNav.uncategorized
+        li
+          a(href=url_for(article.path))= article.title

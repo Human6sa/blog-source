@@ -2,9 +2,12 @@
 title: Hexo博客搭建中的一些坑
 date: 2022-08-04 16:26:24
 description: 搭博客时遇到的一些常见问题
-categories: 技术杂谈
 top_img: img/Bing/AcadiaSunrise.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AcadiaSunrise.webp
+categories: 工程笔记
+category_branch: 技术杂谈
+permalink: notes/engineering/technical-notes/hexo-setup/
+redirect_from: Hexo博客搭建中的一些坑.html
 ---
 
 ## css无法加载

@@ -3,9 +3,9 @@ title: 基于nanochat的大语言模型本地部署
 date: 2025-05-26 10:03:10
 description:
 tags:
-categories:
 top_img: img/Bing/AnzaBorregoBloom.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/AnzaBorregoBloom.webp
+categories: 随笔
 ---
 
 # 一、环境配置

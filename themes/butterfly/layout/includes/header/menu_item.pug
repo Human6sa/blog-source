@@ -1,13 +1,32 @@
-if theme.menu
+include ./category-tabs.pug
+
+mixin siteMenu(categoryNav, mobile)
+  - const categoryUrl = url_for(categoryNav.overviewPath).replace(/\/$/, '')
   .menus_items
     each value, label in theme.menu
       if typeof value !== 'object'
-        .menus_item
-          - const [link, icon] = value.split('||').map(part => trim(part))
-          a.site-page(href=url_for(link))
-            if icon
-              i.fa-fw(class=icon)
-            span= ' ' + label
+        - const [link, icon] = value.split('||').map(part => trim(part))
+        - const categoryMenu = url_for(link).replace(/\/$/, '') === categoryUrl
+        if categoryMenu && mobile
+          .menus_item
+            details.category-mobile-menu
+              summary.site-page
+                if icon
+                  i.fa-fw(class=icon)
+                span= ' ' + label
+                i.fas.fa-chevron-down.category-menu-chevron(aria-hidden="true")
+              +categoryTabs(categoryNav.tabs)
+        else
+          .menus_item(class=categoryMenu && 'category-menu' data-category-disclosure=categoryMenu)
+            a.site-page(href=url_for(link))
+              if icon
+                i.fa-fw(class=icon)
+              span= ' ' + label
+            if categoryMenu
+              button.category-menu-toggle(type="button" data-category-toggle aria-expanded="false" aria-controls="category-menu-panel" aria-label="文章分类")
+                i.fas.fa-chevron-down(aria-hidden="true")
+              #category-menu-panel.category-menu-panel(role="group" aria-label="文章分类" data-category-panel inert)
+                +categoryTabs(categoryNav.tabs)
       else
         .menus_item
           - const [groupLabel, groupIcon, groupClass] = label.split('||').map(part => trim(part))

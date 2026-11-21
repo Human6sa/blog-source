@@ -4,9 +4,12 @@ date: 2022-10-19 16:46:43
 
 description: OI中常用的一些STL函数
 tags: STL
-categories: OI
 top_img: img/22.10.19.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/22.10.19.webp
+categories: 计算机基础
+category_branch: 算法笔记
+permalink: notes/algorithms/stl/
+redirect_from: 【算法】常用STL函数.html
 ---
 
 # C++标准模板库(STL)之Vector容器:

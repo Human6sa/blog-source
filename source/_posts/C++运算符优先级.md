@@ -3,9 +3,12 @@ title: C++运算符优先级
 date: 2022-11-23 15:55:03
 description: 
 tags: C++语法
-categories: C++
 top_img: img/Bing/Aldeyjarfoss.webp
 cover: https://cdn.jsdelivr.net/gh/Human6sa/blog-source@main/themes/butterfly/source/img/Bing/Aldeyjarfoss.webp
+categories: 计算机基础
+category_branch: C++
+permalink: notes/cpp/operator-precedence/
+redirect_from: C++运算符优先级.html
 ---
 
 第一级： 
