@@ -271,12 +271,12 @@ share:
 comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo/Giscus/Remark42
-  use: # Valine,Disqus
-    - Valine
+  use:
+    - Waline
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
-  lazyload: false
+  lazyload: true
   count: false # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
@@ -302,11 +302,11 @@ livere:
 # gitalk
 # https://github.com/gitalk/gitalk
 gitalk:
-  client_id: # c50a3f36371848ebe23b
-  client_secret: # dbafade9e386216796e67d457dfe0497795e53b0
-  repo: # Talk_to_Human6sa
-  owner: # Human6sa
-  admin: # Talk_to_Human6sa
+  client_id:
+  client_secret:
+  repo:
+  owner:
+  admin:
   option:
     language: zh-CN
     perPage: 10
@@ -317,24 +317,28 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: wSHDzkm9xBpfpeRdREXPp7pX-gzGzoHsz # leancloud application app id
-  appKey: 5Fi5DVNozbIk47fUlXws7SZk # leancloud application app key
-  avatar: retro # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
-  bg: # valine background
-  visitor: true
+  appId:
+  appKey:
+  avatar: retro
+  serverURLs:
+  bg:
+  visitor: false
   option:
-    placeholder: 发表你的看法吧
-    notify: true
-    pageSize: 20
 
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: # Waline server address url
-  bg: # waline background
+  serverURL: https://human6sa-waline.vercel.app
+  bg:
   pageview: false
   option:
+    lang: zh-CN
+    login: disable
+    meta: [nick, mail]
+    requiredMeta: [nick]
+    imageUploader: false
+    locale:
+      placeholder: 欢迎指出错误、补充资料，或者留下你的问题。
 
 # utterances
 # https://utteranc.es/
